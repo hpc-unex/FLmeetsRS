@@ -38,4 +38,4 @@ sbatch --nodes=2 -p volta --wait-all-nodes=1 -t 01:00:00 --gpus-per-node=2 ./lau
 
 ## Some Results
 
-<img src="https://github.com/hpc-unex/FLmeetsRS/assets/36038967/99a4e49f-3290-4921-b54f-d5d06c0935a5" alt="Texto alternativo" style="width:500px;height:240px;">
+<img src="https://github.com/hpc-unex/FLmeetsRS/assets/36038967/99a4e49f-3290-4921-b54f-d5d06c0935a5" alt="Texto alternativo" style="width:470px;height:210px;">
