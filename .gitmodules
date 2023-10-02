@@ -1,0 +1,6 @@
+[submodule "RSI-CB"]
+	path = RSI-CB
+	url = https://github.com/lehaifeng/RSI-CB.git
+[submodule "FedML"]
+	path = FedML
+	url = https://github.com/FedML-AI/FedML.git

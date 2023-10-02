@@ -35,7 +35,7 @@ class RSICB256_truncated(data.Dataset):
         self, dir, dataidxs=None, train=True, transform=None, target_transform=None, download=False, args=None,
     ):
         self.args = args
-        self.dir = "/home/smoreno/fedml_data/RSI-CB256"
+        self.dir = "~/FLmeetsRS/FedML/fedml_data/RSICB256"
         self.dataidxs = dataidxs
         self.train = train
         self.transform = transform
@@ -90,8 +90,6 @@ class RSICB256_truncated(data.Dataset):
                             path = os.path.join(root, fname)
                             pathv = Image.open(os.path.join(root, fname))
                             img = np.array(pathv)
-                            if img.shape != (256, 256, 3):
-                                print("...................:", img.shape, os.path.join(root, fname))
                             item = (pathv, class_to_idx[target], target, path)
                             images.append(item)
                             target_num += 1
