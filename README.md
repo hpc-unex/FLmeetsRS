@@ -28,49 +28,49 @@ sh execute_patch.sh
 ```
 
 RSICB256 dataset should be collected in ~/FLmeetsRS/FedML/fedml_data/RSICB256 as:
-/
+.
 ├── construction land/
-│ ├── city_building/
-│ ├── container/
-│ ├── residents/
-│ ├── storage_room/
+│   ├── city_building/
+│   ├── container/
+│   ├── residents/
+│   └── storage_room/
 ├── cultivate land/
-│ ├── bare_land/
-│ ├── dry_farm/
-│ ├── green_farmland/
+│   ├── bare_land/
+│   ├── dry_farm/
+│   └── green_farmland/
 ├── other land/
-│ ├── desert/
-│ ├── mountain/
-│ ├── sandbeach/
-│ ├── snow_mountain/
+│   ├── desert/
+│   ├── mountain/
+│   ├── sandbeach/
+│   └── snow_mountain/
 ├── other objects/
-│ ├── airplane/
-│ ├── pipeline/
-│ ├── town/
+│   ├── airplane/
+│   ├── pipeline/
+│   └── town/
 ├── transportation/
-│ ├── airport_runway/
-│ ├── avenue/
-│ ├── bridge/
-│ ├── crossroads/
-│ ├── highway/
-│ ├── marina/
-│ ├── parkinglot/
+│   ├── airport_runway/
+│   ├── avenue/
+│   ├── bridge/
+│   ├── crossroads/
+│   ├── highway/
+│   ├── marina/
+│   └── parkinglot/
 ├── water area/
-│ ├── coastline/
-│ ├── dam/
-│ ├── hirst/
-│ ├── lakeshore/
-│ ├── river/
-│ ├── sea/
-│ ├── stream/
-├── woodland/
-│ ├── artificial_grassland/
-│ ├── forest/
-│ ├── mangrove/
-│ ├── river_protection_forest/
-│ ├── sapling/
-│ ├── shrubwood/
-│ ├── sparse_forest/
+│   ├── coastline/
+│   ├── dam/
+│   ├── hirst/
+│   ├── lakeshore/
+│   ├── river/
+│   ├── sea/
+│   └── stream/
+└── woodland/
+    ├── artificial_grassland/
+    ├── forest/
+    ├── mangrove/
+    ├── river_protection_forest/
+    ├── sapling/
+    ├── shrubwood/
+    └── sparse_forest/
 
 ### Run Code
 
