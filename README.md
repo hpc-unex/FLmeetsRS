@@ -23,6 +23,7 @@ git clone https://github.com/FedML-AI/FedML.git
 cd FedML
 git checkout 7aaa278d15f8852e1e2af49bf8baf3666151192f
 cd ..
+cd patch
 sh execute_patch.sh
 ```
 
