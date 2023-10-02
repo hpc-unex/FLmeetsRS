@@ -1,11 +1,15 @@
 # FLmeetsRS
-
 ![RS-FL (17)](https://github.com/hpc-unex/FLmeetsRS/assets/36038967/d8475c26-5968-4386-a7e6-c01b624d9ef2)
 
-Requirements (bold is the tested version):
+
+## Requirements (bold is the tested version):
+
 torch >= **1.12.1**
+
 cuda >= **10.2**
+
 mpi compatible with torch+cuda version >= **4.0.4**
+
 fedml (https://github.com/FedML-AI/FedML) **v0.7.331**
 
 
@@ -35,8 +39,5 @@ sbatch --nodes=2 -p volta --wait-all-nodes=1 -t 01:00:00 --gpus-per-node=2 ./lau
 
 ## Some Results
 
-```
 ![results](https://github.com/hpc-unex/FLmeetsRS/assets/36038967/99a4e49f-3290-4921-b54f-d5d06c0935a5)
-
-```
 
