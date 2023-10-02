@@ -28,6 +28,7 @@ sh execute_patch.sh
 ```
 
 RSICB256 dataset should be collected in ~/FLmeetsRS/FedML/fedml_data/RSICB256 as:
+```
 .
 ├── construction land/
 │   ├── city_building/
@@ -71,7 +72,7 @@ RSICB256 dataset should be collected in ~/FLmeetsRS/FedML/fedml_data/RSICB256 as
     ├── sapling/
     ├── shrubwood/
     └── sparse_forest/
-
+```
 ### Run Code
 
 ```
