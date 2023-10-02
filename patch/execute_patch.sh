@@ -1,6 +1,5 @@
 import os
 
-cd patch
 cp -r yamls ../FedML/python/
 cp -r main.py ../FedML/python/
 cp -r launchMPI.sh ../FedML/python/
