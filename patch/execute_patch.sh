@@ -1,4 +1,4 @@
-import os
+#!/bin/sh
 
 cp -r yamls ../FedML/python/
 cp -r main.py ../FedML/python/
