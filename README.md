@@ -36,6 +36,7 @@ sbatch --nodes=2 -p volta --wait-all-nodes=1 -t 01:00:00 --gpus-per-node=2 ./lau
 ## Some Results
 
 ```
-![Captura desde 2023-10-02 16-16-46](https://github.com/hpc-unex/FLmeetsRS/assets/36038967/a7029484-9d55-4c6e-82bc-c60844b789ae)
+![Captura desde 2023-10-02 16-16-46](https://github.com/hpc-unex/FLmeetsRS/assets/36038967/39a398eb-588d-406f-bb65-3cb2d57cbdf8)
+
 ```
 
