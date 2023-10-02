@@ -1,5 +1,5 @@
 # FLmeetsRS
-<img src="https://github.com/hpc-unex/FLmeetsRS/assets/36038967/d8475c26-5968-4386-a7e6-c01b624d9ef2" alt="Texto alternativo" style="width:650px;height:350px;">
+<img src="https://github.com/hpc-unex/FLmeetsRS/assets/36038967/d8475c26-5968-4386-a7e6-c01b624d9ef2" alt="Texto alternativo" style="width:600px;height:300px;">
 
 ## Requirements (bold is the tested version):
 
@@ -38,4 +38,4 @@ sbatch --nodes=2 -p volta --wait-all-nodes=1 -t 01:00:00 --gpus-per-node=2 ./lau
 
 ## Some Results
 
-<img src="https://github.com/hpc-unex/FLmeetsRS/assets/36038967/99a4e49f-3290-4921-b54f-d5d06c0935a5" alt="Texto alternativo" style="width:470px;height:210px;">
+<img src="https://github.com/hpc-unex/FLmeetsRS/assets/36038967/99a4e49f-3290-4921-b54f-d5d06c0935a5" alt="Texto alternativo" style="width:470px;height:190px;">
