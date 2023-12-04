@@ -76,11 +76,11 @@ RSICB256 dataset should be collected in ~/FLmeetsRS/FedML/fedml_data/RSICB256 as
 ### Run Code
 
 ```
-# With 2 nodes 20 clients (MPI)
-sbatch --nodes=2 -p volta --wait-all-nodes=1 -t 01:00:00 --gpus-per-node=2 ./launch.sh -e 10 -c MPI -w 4 -s 123 -i 256 -n 20 -k 10 -t 100 -b 64
+# With 10 nodes 20 clients (MPI)
+sbatch --nodes=10 -p volta --wait-all-nodes=1 -t 01:00:00 --gpus-per-node=2 ./launch.sh -e 10 -c MPI -w 20 -s 123 -i 256 -n 20 -k 10 -t 100 -b 64
 
-# With 10 nodes 20 clients (SP)
-sbatch --nodes=10 -p volta --wait-all-nodes=1 -t 01:00:00 --gpus-per-node=2 ./launch.sh -e 10 -c SP -w 4 -s 123 -i 256 -n 20 -k 10 -t 100 -b 64
+# With 1 nodes 20 clients (SP)
+sbatch --nodes=1 -p volta --wait-all-nodes=1 -t 01:00:00 --gpus-per-node=2 ./launch.sh -e 10 -c SP -w 4 -s 123 -i 256 -n 20 -k 10 -t 100 -b 64
 ```
 
 ## Some Results
