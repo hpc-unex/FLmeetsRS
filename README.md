@@ -11,6 +11,10 @@ mpi compatible with torch+cuda version >= **4.0.4**
 
 fedml (https://github.com/FedML-AI/FedML) **v0.7.331**
 
+## Data types (This study focus on high-resolution optical images)
+
+![RStypes_v2](https://github.com/hpc-unex/FLmeetsRS/assets/36038967/a4018816-e3af-496d-a081-973ab73cdf31)
+
 
 ## Getting Started
 ### Installation
@@ -86,3 +90,6 @@ sbatch --nodes=1 -p volta --wait-all-nodes=1 -t 01:00:00 --gpus-per-node=2 ./lau
 ## Some Results
 
 <img src="https://github.com/hpc-unex/FLmeetsRS/assets/36038967/99a4e49f-3290-4921-b54f-d5d06c0935a5" alt="Texto alternativo" style="width:470px;height:190px;">
+
+
+
