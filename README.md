@@ -13,7 +13,7 @@ fedml (https://github.com/FedML-AI/FedML) **v0.7.331**
 
 ## Data types (This study focus on high-resolution optical images)
 
-<img src="https://github.com/hpc-unex/FLmeetsRS/assets/36038967/a4018816-e3af-496d-a081-973ab73cdf31" style="width:550px;height:300px;">
+<img src="https://github.com/hpc-unex/FLmeetsRS/assets/36038967/a4018816-e3af-496d-a081-973ab73cdf31" style="width:500px;height:350px;">
 
 
 
